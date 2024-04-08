@@ -6,7 +6,7 @@ setup(
     author_email='pm@geo.au.dk',
     packages=find_packages('src'),
     package_dir={'':'src'},
-    install_requires=['numpy', 'subprocess', 'time', 'glob', 'pandas'],
+    install_requires=['numpy', 'pandas'],
     version=__version__,
     license='MIT',
     description='create and read files to interact with aarhus inv',
